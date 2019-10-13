@@ -1,10 +1,10 @@
-import React from "react";
-import "./style.css";
+// import React from "react";
+// import "./style.css";
 
-ClickGame = () => {
+// ClickGame = (props) => {
 
-}
+// }
 
 
 
-export default ClickGame;
+// export default ClickGame;
