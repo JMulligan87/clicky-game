@@ -8,3 +8,10 @@ html, body, #root {
   margin: 0;
   height: 100%;
 }
+
+body {
+  background-image: url("https://vignette.wikia.nocookie.net/renandstimpy/images/5/50/Wiki-background/revision/latest?cb=20180112175158");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}

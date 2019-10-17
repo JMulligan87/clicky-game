@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
-ClickGame = (props) => {
+function ClickGame(props) {
     return (
         <div className="card">
-            <a onClick={() => props.}></a>
+            <img alt={props.name} src={props.image} />
         </div>
-    )
+    );
 
 }
 
