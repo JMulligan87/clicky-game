@@ -16,7 +16,14 @@ class App extends Component {
     return (
       <Container>
         <Jumbotron />
-        <ClickGame />
+        <div className="row">
+        {this.state.characters.map(character => (
+          <ClickGame
+          id={character.id}
+          image={character.image}
+          />
+        ))}
+        </div>
       </Container>
     );
   }
