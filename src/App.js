@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Jumbotron from "./components/Jumbotron/jumbotron";
+import Jumbotron from "./components/Jumbotron";
 import friends from "./friends.json";
-import Container from "./components/Container/";
+import Container from "./components/Container";
 // import ClickGame from "./components/ClickGame";
 
 class App extends Component {

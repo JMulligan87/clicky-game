@@ -1,10 +1,15 @@
-// import React from "react";
-// import "./style.css";
+import React from "react";
+import "./style.css";
 
-// ClickGame = (props) => {
+ClickGame = (props) => {
+    return (
+        <div className="card">
+            <a onClick={() => props.}></a>
+        </div>
+    )
 
-// }
+}
 
 
 
-// export default ClickGame;
+export default ClickGame;
