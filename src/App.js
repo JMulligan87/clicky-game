@@ -8,7 +8,13 @@ class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     characters
+    
   };
+      
+  onClick=(e) => {
+    console.log(e)
+  }
+
 
 
   // Map over this.state.friends and render a FriendCard component for each friend object
@@ -21,6 +27,7 @@ class App extends Component {
           <ClickGame
           id={character.id}
           image={character.image}
+          onClick={this.onClick}
           />
         ))}
         </div>
