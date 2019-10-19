@@ -1,43 +1,53 @@
 [
   {
     "id": 1,
-    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/c/c1/Ren-stimpy-25-anniversar-hp2.png/revision/latest?cb=20170521213914"
+    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/c/c1/Ren-stimpy-25-anniversar-hp2.png/revision/latest?cb=20170521213914",
+    "clicked": false
   },
   {
     "id": 2,
-    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/9/9a/Ren-stimpy-25-anniversar-hp1y-1.png/revision/latest?cb=20170521213617"
+    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/9/9a/Ren-stimpy-25-anniversar-hp1y-1.png/revision/latest?cb=20170521213617",
+    "clicked": false
   },
   {
     "id": 3,
-    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/b/b1/Powdered_toastman.png/revision/latest?cb=20160126233840"
+    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/b/b1/Powdered_toastman.png/revision/latest?cb=20160126233840",
+    "clicked": false
   },
   {
     "id": 4,
     
-    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/5/5a/Muddy_Mudskipper_Picture.jpg/revision/latest?cb=20121210015935"
+    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/5/5a/Muddy_Mudskipper_Picture.jpg/revision/latest?cb=20121210015935",
+    "clicked": false
   },
   {
     "id": 5,
-    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/d/df/Mr._Horse.jpg/revision/latest?cb=20090912183619"
+    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/d/df/Mr._Horse.jpg/revision/latest?cb=20090912183619",
+    "clicked": false
   },
   {
     "id": 6,
-    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/d/dd/Sven.png/revision/latest?cb=20160226230042"
+    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/d/dd/Sven.png/revision/latest?cb=20160226230042",
+    "clicked": false
   },
   {
     "id": 7,
-    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/0/0b/The_Baboon.png/revision/latest?cb=20170630222914"
+    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/0/0b/The_Baboon.png/revision/latest?cb=20170630222914",
+    "clicked": false
   },
   {
     "id": 8,
-    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/8/84/Cow.png/revision/latest?cb=20190403151435"
+    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/8/84/Cow.png/revision/latest?cb=20190403151435",
+    "clicked": false
   },
   {
     "id": 9,
-    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/b/be/Yak.jpg/revision/latest?cb=20160118154907"
+    "image": "https://vignette.wikia.nocookie.net/renandstimpy/images/b/be/Yak.jpg/revision/latest?cb=20160118154907",
+    "clicked": false
   },
   {
     "id": 10,
-    "image": "https://static.tvtropes.org/pmwiki/pub/images/george_2229.gif"
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/george_2229.gif",
+    "clicked": false
   }
 ]

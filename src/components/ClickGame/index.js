@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 
+
+
 function ClickGame(props) {
     return (
         <div className="card" onClick={props.onClick}>
