@@ -17,16 +17,22 @@ class App extends Component {
 
   onClick = (id) => {
     console.log(id)
-
+    let isRight = false;
     characters.forEach(character => {
       if (id === character.id) {
         if (!character.clicked) {
+          isRight = true
           character.clicked = true;
         }
-        console.log(character.clicked)
+        console.log(isRight)
         this.shuffleCards();
       }
     })
+    if (isRight === true) {
+      this.rightClick(characters);
+    } else {
+      this.wrongClick(characters);
+    }
 
   }
 
@@ -41,23 +47,25 @@ class App extends Component {
   }
 
   rightClick = (characters) => {
-    let currentScore = this.state.currentScore +1;
-    let highScore=this.state.highScore;
+    let test = this.state.currentScore + 1;
+    let highScore = this.state.highScore;
 
-    if(currentScore>highScore){
-      currentScore=highScore
+    if (test>highScore){
       this.setState({
-        currentScore: currentScore,
-        highScore: highScore
+        currentScore: test,
+        highScore: test
       })
+
     }
 
 
   }
 
-  // wrongClick = (characters) => {
-
-  // }
+  wrongClick = (characters) => {
+    this.setState({
+      currentScore: 0
+    });
+  }
 
   // if(characters.clicked===true){
   //   // console.log(this)
