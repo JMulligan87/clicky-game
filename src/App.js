@@ -50,23 +50,22 @@ class App extends Component {
     let test = this.state.currentScore + 1;
     let highScore = this.state.highScore;
 
-    if (test>highScore){
+    if (test > highScore) {
       this.setState({
         currentScore: test,
         highScore: test
       })
 
     }
-
-
   }
 
   wrongClick = (characters) => {
-    this.setState({
-      currentScore: 0
-    });
-  }
 
+    this.setState(characters => ({
+      currentScore: 0
+    }));
+    console.log(characters)
+  }
   // if(characters.clicked===true){
   //   // console.log(this)
   //   this.setState({clicked: false,
